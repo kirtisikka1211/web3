@@ -1,0 +1,29 @@
+{
+  "canisters": {
+    "trackingcontract_backend": {
+      "main": "src/trackingcontract_backend/main.mo",
+      "type": "motoko"
+    },
+    "trackingcontract_frontend": {
+      "dependencies": [
+        "trackingcontract_backend"
+      ],
+      "frontend": {
+        "entrypoint": "src/trackingcontract_frontend/src/index.html"
+      },
+      "source": [
+        "src/trackingcontract_frontend/assets",
+        "dist/trackingcontract_frontend/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
