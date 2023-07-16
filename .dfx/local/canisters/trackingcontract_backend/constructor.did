@@ -1,0 +1,3 @@
+service : {
+  addPrize: (text, nat, text, text) -> ();
+}
