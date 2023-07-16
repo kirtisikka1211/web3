@@ -13,7 +13,7 @@
       },
       "source": [
         "src/trackingcontract_frontend/assets",
-        "dist/trackingcontract_frontend/"
+        "src/trackingcontract_frontend/src"
       ],
       "type": "assets"
     }
